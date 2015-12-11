@@ -1,6 +1,6 @@
 {
   "name": "bbc-microbit-classic-gcc",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Official mbed build target for the mbed nrf51822 development board, using the armgcc toolchain.",
   "licenses": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "inherits": {
-    "mbed-gcc": "*"
+    "mbed-gcc": "0.1.3"
   },
   "keywords": [
     "mbed-target:nrf51822",
