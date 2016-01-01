@@ -1,7 +1,7 @@
 {
-  "name": "bbc-microbit-classic-armcc",
-  "version": "0.1.1",
-  "description": "Official mbed build target for the microbit, using the armcc toolchain.",
+  "name": "bbc-microbit-classic-gcc-nosd",
+  "version": "0.1.3",
+  "description": "Official mbed build target for the BBC micro:bit, using the armgcc toolchain, without Softdevice.",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -9,15 +9,14 @@
     }
   ],
   "inherits": {
-    "mbed-armcc": "0.1.3"
+    "mbed-gcc": "0.1.3"
   },
   "keywords": [
     "mbed-target:nrf51822",
     "mbed-official",
     "nrf51822",
     "nordic",
-    "armcc",
-	"microbit"
+    "gcc"
   ],
   "config": {},
   "similarTo": [
@@ -26,20 +25,21 @@
     "nordic",
     "cortex-m0",
     "armv6-m",
-    "mbed-classic"
+    "mbed-classic",
+    "microbit"
   ],
   "toolchain": "CMake/toolchain.cmake",
   "scripts": {
     "debug": [
       "valinor",
       "--target",
-      "NRF51_MICROBIT",
+      "NRF51822",
       "$program"
     ],
     "test": [
       "mbed_test_wrapper",
       "--target",
-      "NRF51_MICROBIT",
+      "NRF51822",
       "$program"
     ]
   }
