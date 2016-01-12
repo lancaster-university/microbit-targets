@@ -1,7 +1,7 @@
 {
   "name": "bbc-microbit-classic-gcc",
-  "version": "0.1.4",
-  "description": "Official mbed build target for the mbed nrf51822 development board, using the armgcc toolchain.",
+  "version": "0.2.0",
+  "description": "Official mbed build target for the BBC micro:bit, using the gcc toolchain.",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",

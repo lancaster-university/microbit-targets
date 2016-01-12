@@ -1,7 +1,7 @@
 {
   "name": "bbc-microbit-classic-armcc",
-  "version": "0.1.1",
-  "description": "Official mbed build target for the microbit, using the armcc toolchain.",
+  "version": "0.2.0",
+  "description": "Official mbed build target for the BBC micro:bit, using the armcc toolchain.",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -17,7 +17,7 @@
     "nrf51822",
     "nordic",
     "armcc",
-	"microbit"
+    "microbit"
   ],
   "config": {},
   "similarTo": [
