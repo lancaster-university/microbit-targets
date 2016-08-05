@@ -1,6 +1,6 @@
 {
   "name": "bbc-microbit-classic-gcc-s130",
-  "version": "0.1.0",
+  "version": "0.2.3",
   "description": "Official mbed build target for the BBC micro:bit with the NORDIC S130 Soft Device, using the armgcc toolchain.",
   "licenses": [
     {
