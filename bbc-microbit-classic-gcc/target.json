@@ -9,7 +9,7 @@
     }
   ],
   "inherits": {
-    "mbed-gcc": "0.1.3"
+    "mbed-gcc": "https://github.com/lancaster-university/target-mbed-gcc.git#v0.1.3"
   },
   "keywords": [
     "mbed-target:nrf51822",
